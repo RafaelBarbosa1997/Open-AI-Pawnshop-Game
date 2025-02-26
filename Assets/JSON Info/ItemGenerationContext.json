@@ -1,0 +1,28 @@
+{
+  "scenario": "Imagine a fictional universe where entities from all kinds of horror media exist. In this universe, there exists a pawn shop, which deals in supernatural items of this nature. Now imagine a scenario where a person visits this pawn shop to sell off an item. What I will need you to do is come up with what the item to be sold is. The item must be something that fits into the imagined universe and must have a horror atmosphere as well as a dark humor atmosphere. It must also have an interesting purpose or effect. The effect/purpose can be positive, negative or both.",
+  "inspiration": "For creating the item, you should take general inspiration from horror movies, horror games, horror literature, myths, internet horror, etc. Besides these general references, you should also take inspiration from the following specific themes:",
+  "cliche": "You should avoid following any horror clichés and tropes when creating the item, both for the item itself and for its purpose/effect. Think for yourself if something is cliché and exclude that possibility if it is. Besides the clichés/tropes determined by you, also avoid these specific ones:",
+  "operationOrder": "The order of operations for creating the item is as follows. First decide if the effect is positive, negative or both. Then, write the item's visual description. Then, write the item's effect. Finally, write the item's name. These operations must follow these rules:",
+  "rules": 
+  [
+	"The visual description should be short and only have 1 sentence. It should invoke uncomfortable feelings",
+	"The effect should also be short but appropriately detail what the item does",
+	"Be creative with the item effect. Don't be afraid of being over the top with it.",
+	"Avoid overusing effects driving the user mad, make it varied so effects can be physical as well.",
+	"Try to include body horror and gore into the description and effect. Only do this if it makes sense. Don't try to force in this aspect if your item doesn't make sense for it.",
+	"If the effect is both negative and positive, make sure that the negative part of it isn't so punishing that it makes the positive not worthwhile.",
+	"The name should be kept to 4 words or less",
+	"Avoid using the word 'horror', 'humor', 'gore', 'whisper', 'pulsating' or any synonyms in any of the written text",
+	"The whole vibe of the item should be mysterious and open-ended, with the intention of causing the fear of the unknown onto the reader"
+  ],
+  "prices": "Now considering the item, use reasoning to come up with a market value for that item, in dollars. Also come up with a value that the client is offering to sell the item for, also in dollars, which should be above the market value but not unreasonably so. The value for both of the prices must be within the following range:",
+  "command": "After the item has been created, you must respond in JSON format, with the following fields:",
+  "resultFields":
+  [
+	"(string) name",
+	"(string) description",
+	"(string) effect",
+	"(float) marketValue",
+	"(float) clientOffer"
+  ]
+}
